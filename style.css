@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e5e5e5;
+}
+
+header, footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+.city-container {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin: 50px auto;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+}
+
+.building {
+	position: absolute;
+	bottom: 0;
+	width: 100px;
+	height: 200px;
+	background-color: #ccc;
+	border: 1px solid #999;
+}
+
+.building1 {
+	left: 100px;
+}
+
+.building2 {
+	left: 250px;
+	height: 150px;
+}
+
+.building3 {
+	left: 400px;
+	height: 175px;
+}
+
+.building4 {
+	left: 550px;
+	height: 100px;
+}
+
+.road {
+	position: absolute;
+	bottom: 0;
+	width: 800px;
+	height: 50px;
+	background-color: #333;
+}
+
+.car {
+	position: absolute;
+	top: 150px;
+	width: 50px;
+	height: 25px;
+	background-color: #f00;
+	border: 1px solid #333;
+	animation: drive 5s linear infinite;
+}
+
+.car1 {
+	left: -50px;
+	animation-delay: 0s;
+}
+
+.car2 {
+	left
